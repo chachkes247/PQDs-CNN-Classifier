@@ -1,14 +1,17 @@
 # PQDs-CNN-Classifier
 This repository contains a Deep CNN classifier of Power Quality Disturbances.
 
-### DeepCNN.py
-The main file, contains dataset uploaing.
-Current dataset format is a MATLAB sturcut file.
+### Requirements:
+Python 3
+Tensorflow
+Keras
+matplotlib
+scipy (fir MATLAB using)
 
-### How to Run the code with any database :
-1) Download the code to a folder in your local workspace.
-2) Move your dataset to the same folder 
-3) Replace the dataset file name in the code: < DataBase = loadmat('DB_name.mat') >
+### To use the code with a given database:
+1) Clone the repository.
+2) Add your dataset to the same folder as the cloned code. 
+3) DeepCNN.py is the main file.Current dataset format is a MATLAB sturcut file. Replace the dataset filename in DeepCNN.py, at line: < DataBase = loadmat('DB_name.mat') >
 
 ## Model Description 
 
